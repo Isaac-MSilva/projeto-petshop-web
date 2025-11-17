@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - PetShop Patinhas Felizes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-img-top {
+            height: 200px;
+            object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">🐾 Patinhas Felizes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="agendamento.html">Agendar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5">
+        <h1 class="text-center mb-5">Nossos Produtos</h1>
+
+        <h3 class="border-bottom pb-2 mb-3">Acessórios</h3>
+        <div class="row mb-5">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://placehold.co/400x300?text=Cama+Pet" class="card-img-top" alt="Cama para cachorro azul e macia">
+                    <div class="card-body">
+                        <h5 class="card-title">Cama Conforto M</h5>
+                        <p class="card-text">O descanso que seu amigo merece. Tecido lavável e espuma de alta densidade.</p>
+                        <h4 class="text-primary">R$ 89,90</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://placehold.co/400x300?text=Brinquedo" class="card-img-top" alt="Brinquedo de corda e borracha">
+                    <div class="card-body">
+                        <h5 class="card-title">Mordedor Resistente</h5>
+                        <p class="card-text">Ideal para cães com mordida forte. Ajuda na limpeza dos dentes.</p>
+                        <h4 class="text-primary">R$ 29,90</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="border-bottom pb-2 mb-3">Rações Não Perecíveis</h3>
+        <div class="row mb-5">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://placehold.co/400x300?text=Racao+Premium" class="card-img-top" alt="Saco de ração premium para cães">
+                    <div class="card-body">
+                        <h5 class="card-title">Ração DogMaster 10kg</h5>
+                        <p class="card-text">Nutrição completa para cães adultos de médio porte. Sabor Frango.</p>
+                        <h4 class="text-primary">R$ 149,90</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://placehold.co/400x300?text=Racao+Gatos" class="card-img-top" alt="Saco de ração para gatos">
+                    <div class="card-body">
+                        <h5 class="card-title">Ração CatLife 3kg</h5>
+                        <p class="card-text">Fórmula específica para gatos castrados. Controle de peso e saúde urinária.</p>
+                        <h4 class="text-primary">R$ 79,90</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="border-bottom pb-2 mb-3">Higiene e Limpeza</h3>
+        <div class="row mb-5">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://placehold.co/400x300?text=Tapete+Higienico" class="card-img-top" alt="Pacote de tapetes higiênicos">
+                    <div class="card-body">
+                        <h5 class="card-title">Tapete Super Seco</h5>
+                        <p class="card-text">Pacote com 30 unidades. Gel absorvente e neutralizador de odores.</p>
+                        <h4 class="text-primary">R$ 59,90</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://placehold.co/400x300?text=Shampoo+Pet" class="card-img-top" alt="Frasco de shampoo veterinário">
+                    <div class="card-body">
+                        <h5 class="card-title">Shampoo Anti-pulgas</h5>
+                        <p class="card-text">Proteção e limpeza. Frasco de 500ml com extratos naturais.</p>
+                        <h4 class="text-primary">R$ 45,90</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>© 2025 PetShop Patinhas Felizes. Todos os direitos reservados.</p>
+        <p id="relogio" class="small"></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
