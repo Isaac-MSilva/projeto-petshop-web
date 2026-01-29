@@ -15,5 +15,3 @@ Este projeto foi desenvolvido para as Fases 1 e 2 da disciplina de Fundamentos d
 - CSS3 (Bootstrap 5)
 - JavaScript
 
-## Como acessar
-Clique no link ao lado em "Deployments" ou acesse: [COLQUE SEU LINK DO GITHUB PAGES AQUI]
