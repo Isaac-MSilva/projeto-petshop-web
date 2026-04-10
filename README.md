@@ -1,6 +1,6 @@
 # Projeto PetShop Patinhas Felizes
 
-Este projeto foi desenvolvido para as Fases 1 e 2 da disciplina de Fundamentos de Sistemas Web.
+Este projeto foi desenvolvido para a disciplina de Fundamentos de Sistemas Web da PUCRS.
 
 ## Funcionalidades
 - **Página Inicial:** Carrossel de imagens e apresentação.
